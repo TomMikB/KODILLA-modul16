@@ -3,3 +3,44 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	text-align: center;
+	background: blueviolet;
+	color: white;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	margin: 150px 0 50px;
+	font-size: 30px;
+}
+
+h3 {
+	margin: 50px 0 150px;
+	font-size: 25px;
+}
+
+button, a {
+	width: 400px;
+	height: 40px;
+	display: block;
+	margin: 50px auto;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	font-size: 20px;
+}
+
+button {
+	outline: none;
+	cursor: pointer;
+}
+
+a {
+	line-height: 40px;
+	text-decoration: none;
+}
